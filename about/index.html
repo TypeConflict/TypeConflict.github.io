@@ -12,7 +12,7 @@
   <meta name="description" content="野火焚林（Emberlint）是一個私人小報社，由一個單獨的寫作者獨自編纂、歸納、整理。本小報社寫作的多數內容和社會活動沒有直接關係，多是寫作者本身活動的紀錄，包含且不僅限於日常的碎筆、獨立寫作、電影觀後紀錄與閱讀記事等等內容。報社網站自2025&#x2F;01&#x2F;01起架設維修，逐步交錯刊登往年與當下的文字足跡。僅僅是隨心在寫，沒有什麼特殊目的，也不會給自己加以時間或內容上的限制規範。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="ABOUT US?">
-<meta property="og:url" content="http://example.com/about/index.html">
+<meta property="og:url" content="https://typeconflict.github.io/about/index.html">
 <meta property="og:site_name" content="EMBERLINT">
 <meta property="og:description" content="野火焚林（Emberlint）是一個私人小報社，由一個單獨的寫作者獨自編纂、歸納、整理。本小報社寫作的多數內容和社會活動沒有直接關係，多是寫作者本身活動的紀錄，包含且不僅限於日常的碎筆、獨立寫作、電影觀後紀錄與閱讀記事等等內容。報社網站自2025&#x2F;01&#x2F;01起架設維修，逐步交錯刊登往年與當下的文字足跡。僅僅是隨心在寫，沒有什麼特殊目的，也不會給自己加以時間或內容上的限制規範。">
 <meta property="og:locale" content="zh_TW">
@@ -58,32 +58,10 @@
 
 
   
-  
-  <div class="site-header-image">
-    <img id="originBg" width="100%" alt="Hike News" src="">
-  </div>
-
-  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
-    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
-  </div>
-
-  <script>
-        var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
-        var random = Math.floor((Math.random() * imgUrls.length ));
-        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
-          document.getElementById("originBg").src=imgUrls[random];
-          document.getElementById("blurBg").src=imgUrls[random];
-        } else {
-          document.getElementById("originBg").src='/' + imgUrls[random];
-          document.getElementById("blurBg").src='/' + imgUrls[random];
-        }
-    </script>
-
-
 
 
 <header id="allheader" class="site-header" role="banner" 
-   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
+   >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -370,9 +348,6 @@
 
 
     <!-- headerblur min height -->
-    
-      var headerblur = document.getElementById("header-blur");
-      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
