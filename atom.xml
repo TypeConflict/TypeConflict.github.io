@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>EMBERLINT</title>
-  
+  <icon>http://example.com/icon.png</icon>
   
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-01-02T07:18:14.382Z</updated>
+  <updated>2025-01-02T11:43:39.349Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,36 +21,16 @@
     <link href="http://example.com/2025/01/02/20250102-%E9%BB%91%E9%87%91/"/>
     <id>http://example.com/2025/01/02/20250102-%E9%BB%91%E9%87%91/</id>
     <published>2025-01-01T16:00:00.000Z</published>
-    <updated>2025-01-02T07:18:14.382Z</updated>
+    <updated>2025-01-02T11:43:39.349Z</updated>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;奔著梁家輝演的周朝先來看的電影&lt;br&gt;爛人真心&lt;/p&gt;
-</summary>
-      
+    <summary type="html">&lt;p&gt;2025第一部片選了《黑金》，其實本來是2024年末想接在《情人》後面看的，收尾變成了開頭，正如結束就是開始，倒也是另一種啟示。&lt;br&gt;從六月？八月？有點記不清了，總之2024的下年開始，從《九龍城寨之圍城》後陷入港片大坑，追著古天樂演過的電影開始一片一片回頭補，中間移情別戀到郭富城、劉德華、周潤發等等身上，就這麼自己看了二十五部電影，然後從《寒戰》愛上梁家輝。&lt;/p&gt;
+&lt;p&gt;我覺得這些老演員身上的氣質各個迥異，雖然會笑在電影裡看到他們就知道大概這個角色是什麼定位，比如看到古天樂就知道他肯定有苦衷、看到張家輝就知道他會做反派但實際上是個心熱的好人、&lt;strong&gt;看到劉德華就知道他要死老婆。&lt;/strong&gt;（我快成立老婆保護協會了。）（難道劉德華因為女粉太多，有某種「黃金單身漢」的潔身自好形象需要保護？）&lt;/p&gt;</summary>
     
     
     
     
-    <category term="電影心得" scheme="http://example.com/tags/%E9%9B%BB%E5%BD%B1%E5%BF%83%E5%BE%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20250101-post</title>
-    <link href="http://example.com/2025/01/01/20250101-post/"/>
-    <id>http://example.com/2025/01/01/20250101-post/</id>
-    <published>2024-12-31T16:52:46.000Z</published>
-    <updated>2025-01-01T04:10:09.554Z</updated>
-    
-    
-    
-    
-    <category term="修訂中" scheme="http://example.com/categories/%E4%BF%AE%E8%A8%82%E4%B8%AD/"/>
-    
-    
-    <category term="tag" scheme="http://example.com/tags/tag/"/>
+    <category term="觀影" scheme="http://example.com/tags/%E8%A7%80%E5%BD%B1/"/>
     
   </entry>
   
@@ -70,24 +50,6 @@
     
     
     <category term="日誌" scheme="http://example.com/tags/%E6%97%A5%E8%AA%8C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2024/12/31/hello-world/"/>
-    <id>http://example.com/2024/12/31/hello-world/</id>
-    <published>2024-12-31T14:38:59.940Z</published>
-    <updated>2024-12-31T14:38:59.940Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
     
   </entry>
   

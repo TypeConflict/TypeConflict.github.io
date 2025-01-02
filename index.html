@@ -54,10 +54,32 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -127,65 +149,25 @@
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>奔著梁家輝演的周朝先來看的電影<br>爛人真心</p>
+        
 
+          
+          <div class="entry-summary">
+          2025第一部片選了《黑金》，其實本來是2024年末想接在《情人》後面看的，收尾變成了開頭，正如結束就是開始，倒也是另一種啟示。從六月？八月？有點記不清了，總之2024的下年開始，從《九龍城寨之圍城》後陷入港片大坑，追著古天樂演過的電影開始一片一片回頭補，中間移情別戀到郭富城、劉德華、周潤發等等身上，就這麼自己看了二十五部電影，然後從《寒戰》愛上梁家輝。
+我覺得這些老演員身上的氣質各個迥異，雖然會笑在電影裡看到他們就知道大概這個角色是什麼定位，比如看到古天樂就知道他肯定有苦衷、看到張家輝就知道他會做反派但實際上是個心熱的好人、看到劉德華就知道他要死老婆。（我快成立老婆保護協會了。）（難道劉德華因為女粉太多，有某種「黃金單身漢」的潔身自好形象需要保護？）
+
+        
+          <p class="article-more-link">
+            <a href="/2025/01/02/20250102-%E9%BB%91%E9%87%91/#more">Continue Reading →</a>
+          </p>
+        </div>
       
     </div>
     <footer class="entry-meta entry-footer">
       
       
   <span class="ico-tags"></span>
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%9B%BB%E5%BD%B1%E5%BF%83%E5%BE%97/" rel="tag">電影心得</a></li></ul>
-
-      
-    </footer>
-    <hr class="entry-footer-hr">
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
-    <article id="post-20250101-post"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2025/01/01/20250101-post/">20250101-post</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-meta">
-      
-	<a href="/2025/01/01/20250101-post/" class="article-date">
-	  <time datetime="2024-12-31T16:52:46.000Z" itemprop="datePublished">一月 1, 2025</time>
-	</a>
-
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/%E4%BF%AE%E8%A8%82%E4%B8%AD/">修訂中</a>
- 
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/%E4%BF%AE%E8%A8%82%E4%B8%AD/">修訂中</a>
-
-      
-  <span class="ico-tags"></span>
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tag/" rel="tag">tag</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%A7%80%E5%BD%B1/" rel="tag">觀影</a></li></ul>
 
       
     </footer>
@@ -243,60 +225,6 @@
   <span class="ico-tags"></span>
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%97%A5%E8%AA%8C/" rel="tag">日誌</a></li></ul>
 
-      
-    </footer>
-    <hr class="entry-footer-hr">
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
-    <article id="post-hello-world"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2024/12/31/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-meta">
-      
-	<a href="/2024/12/31/hello-world/" class="article-date">
-	  <time datetime="2024-12-31T14:38:59.940Z" itemprop="datePublished">十二月 31, 2024</time>
-	</a>
-
-       
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-      
       
     </footer>
     <hr class="entry-footer-hr">
@@ -417,32 +345,8 @@
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/2025/01/01/20250101-post/">20250101-post</a></h6>
-              <span>一月 1, 2025</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
               <h6 style="margin: 0;"><a href="/2025/01/01/20250101-%E5%85%83%E6%97%A6/">【20250101】一元復始？</a></h6>
               <span>一月 1, 2025</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2024/12/31/hello-world/">Hello World</a></h6>
-              <span>十二月 31, 2024</span>
             </div>
 
           </li>
@@ -453,20 +357,13 @@
 
   
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E4%BF%AE%E8%A8%82%E4%B8%AD/">修訂中</a><span class="category-list-count">1</span></li></ul>
-    </div>
-  </div>
-
 
   
     
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/tag/" rel="tag">tag</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%A5%E8%AA%8C/" rel="tag">日誌</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%BD%B1%E5%BF%83%E5%BE%97/" rel="tag">電影心得</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%A5%E8%AA%8C/" rel="tag">日誌</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A7%80%E5%BD%B1/" rel="tag">觀影</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -476,7 +373,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/tag/" style="font-size: 10px;">tag</a> <a href="/tags/%E6%97%A5%E8%AA%8C/" style="font-size: 10px;">日誌</a> <a href="/tags/%E9%9B%BB%E5%BD%B1%E5%BF%83%E5%BE%97/" style="font-size: 10px;">電影心得</a>
+      <a href="/tags/%E6%97%A5%E8%AA%8C/" style="font-size: 10px;">日誌</a> <a href="/tags/%E8%A7%80%E5%BD%B1/" style="font-size: 10px;">觀影</a>
     </div>
   </div>
 
@@ -486,7 +383,7 @@
     <h3 class="widget-title">Archives</h3>
 
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/01/">一月 2025</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/12/">十二月 2024</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/01/">一月 2025</a><span class="archive-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -541,6 +438,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
