@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>EMBERLINT</title>
-  
+  <icon>https://typeconflict.github.io/icon.png</icon>
   
   <link href="https://typeconflict.github.io/atom.xml" rel="self"/>
   
   <link href="https://typeconflict.github.io/"/>
-  <updated>2025-01-02T11:43:39.349Z</updated>
+  <updated>2025-01-03T13:43:50.350Z</updated>
   <id>https://typeconflict.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【20250103】</title>
+    <link href="https://typeconflict.github.io/2025/01/03/20250103/"/>
+    <id>https://typeconflict.github.io/2025/01/03/20250103/</id>
+    <published>2025-01-02T16:00:00.000Z</published>
+    <updated>2025-01-03T13:43:50.350Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;看了《新龍門客棧》然後摸了一下Arduino複習，但是好像還沒有弄完所以沒心思寫日記，只好先推上來留個紀錄:&amp;lt;！！！&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+    <category term="日誌" scheme="https://typeconflict.github.io/tags/%E6%97%A5%E8%AA%8C/"/>
+    
+  </entry>
   
   <entry>
     <title>【20250102】《黑金》觀後記事</title>
